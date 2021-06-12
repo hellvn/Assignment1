@@ -11,73 +11,61 @@
 
     <SplitView x:ConnectionId='2' x:Name="SplitView_Menu" OpenPaneLength="250" DisplayMode="CompactInline" IsPaneOpen="True" >
         <SplitView.Pane>
-            <StackPanel>
-                <AppBarButton x:ConnectionId='3' Content="Split view"                           
-                        Width="50" Height="50"
-                        VerticalContentAlignment="Center" 
-                        HorizontalContentAlignment="Center" 
-                        Icon="List" 
-                        HorizontalAlignment="Left"
-                        VerticalAlignment="Top">
-                </AppBarButton>
-                <ListView x:ConnectionId='4' x:Name="listMenu" Margin="10"                         >
-                    <ListView.ItemTemplate>
-                        <DataTemplate                         >
-                            <ListViewItem x:ConnectionId='6'                             >
-                                <RelativePanel>
-                                    <TextBlock x:ConnectionId='7' RelativePanel.RightOf="food"                      FontSize="25"/>
-                                </RelativePanel>
-                            </ListViewItem>
-                        </DataTemplate>
-                    </ListView.ItemTemplate>
-                </ListView>
-            </StackPanel>
+            <ListView x:ConnectionId='3' x:Name="listMenu" Margin="10"                         >
+                <ListView.ItemTemplate>
+                    <DataTemplate                         >
+                        <ListViewItem x:ConnectionId='5'                             >
+                            <TextBlock x:ConnectionId='6'                     />
+                        </ListViewItem>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </SplitView.Pane>
         <SplitView.Content>
             <RelativePanel>
-                <StackPanel   Height="17" Width="1500" 
+                <StackPanel Height="17" Width="1500" 
                     Background="DarkRed"/>
-                <TextBlock x:ConnectionId='8' x:Name="Intro" Foreground="White"  
+                <TextBlock x:ConnectionId='7' x:Name="Intro" Foreground="White"  
                     Text="C# UI Design By Group 5" 
                     Width="400" Margin="20" 
                     RelativePanel.RightOf="BeeHead"/>
                 <StackPanel RelativePanel.Below="BeeHead" Height="700" Width="1500">
                     <ScrollViewer HorizontalAlignment="Left" Height="700px">
                         <StackPanel>
-                            <Frame x:ConnectionId='14' x:Name="MainFrame"/>
+                            <Frame x:ConnectionId='13' x:Name="MainFrame"/>
                         </StackPanel>
                     </ScrollViewer>
                 </StackPanel>
-                <Image x:ConnectionId='9' 
+                <Image x:ConnectionId='8' 
                     x:Name="BeeHead" 
                     HorizontalAlignment="Left" 
                     Margin="70,20,0,0"                   
                                            
-                    Width="200" Height="200"
+                    Width="100" Height="100"
                     />
                 <StackPanel Margin="20" Height="40" Width="400" HorizontalAlignment="Right" RelativePanel.RightOf="Intro">
                     <GridView>
                         <GridView.Header>
                             <RelativePanel>
-                                <FontIcon x:ConnectionId='10' 
+                                <FontIcon x:ConnectionId='9' 
                                     FontFamily="{StaticResource SymbolThemeFontFamily}"
                                     HorizontalAlignment="Left"
                                     Margin="20,0,0,0" 
                                     x:Name="font3"
                                     Glyph="&#xF715;"/>
-                                <FontIcon x:ConnectionId='11' 
+                                <FontIcon x:ConnectionId='10' 
                                     FontFamily="{StaticResource SymbolThemeFontFamily}"
                                     HorizontalAlignment="Left"
                                     Margin="100,0,0,0" 
                                     x:Name="font4" RelativePanel.RightOf="font3"
                                     Glyph="&#xEA8F;"/>
-                                <FontIcon x:ConnectionId='12' 
+                                <FontIcon x:ConnectionId='11' 
                                     FontFamily="{StaticResource SymbolThemeFontFamily}"
                                     HorizontalAlignment="Left"
                                     Margin="20,0,0,0" 
                                     x:Name="font5" RelativePanel.RightOf="font4"
                                     Glyph="&#xE713;"/>
-                                <FontIcon x:ConnectionId='13' 
+                                <FontIcon x:ConnectionId='12' 
                                     FontFamily="{StaticResource SymbolThemeFontFamily}"
                                     HorizontalAlignment="Left"
                                     Margin="20,0,0,0" 

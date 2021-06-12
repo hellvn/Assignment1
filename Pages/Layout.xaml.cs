@@ -39,7 +39,9 @@ namespace Assignment1.Pages
             Menu item = listMenu.SelectedItem as Menu;
             switch (item.MenuPage)
             {
-                
+                case "Home":
+                    MainFrame.Navigate(typeof(Pages.Home), "This is home");
+                    break;
                 case "Eat-in":
                     MainFrame.Navigate(typeof(Pages.Eat_In), "This is Eat-In");
                     break;

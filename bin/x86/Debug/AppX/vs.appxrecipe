@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\Ki2\UWP-Assignment\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-10T17:31:28.412</Modified>
+      <Modified>2021-06-11T14:28:20.096</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Ki2\UWP-Assignment\bin\x86\Debug\Assignment1.exe">
       <PackagePath>entrypoint\Assignment1.exe</PackagePath>
-      <Modified>2021-06-10T17:31:26.837</Modified>
+      <Modified>2021-06-11T14:28:19.172</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nhatdz\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -46,9 +46,29 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T11:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ki2\UWP-Assignment\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2021-06-09T13:03:25.691</Modified>
+    <AppxPackagedFile Include="D:\Ki2\UWP-Assignment\Assets\cake-2.jpg">
+      <PackagePath>Assets\cake-2.jpg</PackagePath>
+      <Modified>2021-06-11T10:33:29.849</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ki2\UWP-Assignment\Assets\Hamburger.jpg">
+      <PackagePath>Assets\Hamburger.jpg</PackagePath>
+      <Modified>2021-06-11T10:33:27.440</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ki2\UWP-Assignment\Assets\humberger.jpg">
+      <PackagePath>Assets\humberger.jpg</PackagePath>
+      <Modified>2021-06-11T10:33:28.230</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ki2\UWP-Assignment\Assets\pizza.jpg">
+      <PackagePath>Assets\pizza.jpg</PackagePath>
+      <Modified>2021-06-11T10:33:29.348</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ki2\UWP-Assignment\Assets\Hambur.png">
+      <PackagePath>Assets\Hambur.png</PackagePath>
+      <Modified>2021-06-11T10:33:30.757</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ki2\UWP-Assignment\Assets\jolibee.png">
+      <PackagePath>Assets\jolibee.png</PackagePath>
+      <Modified>2021-06-11T10:33:28.877</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ki2\UWP-Assignment\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -84,45 +104,53 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-06-09T13:03:25.689</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ki2\UWP-Assignment\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2021-06-09T13:03:25.691</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ki2\UWP-Assignment\bin\x86\Debug\Assignment1.xr.xml">
       <PackagePath>Assignment1.xr.xml</PackagePath>
-      <Modified>2021-06-10T17:31:26.740</Modified>
+      <Modified>2021-06-11T14:16:40.523</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ki2\UWP-Assignment\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-06-10T17:31:26.757</Modified>
+      <Modified>2021-06-11T14:28:19.082</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ki2\UWP-Assignment\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-06-10T17:31:26.757</Modified>
+      <Modified>2021-06-11T14:28:19.082</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ki2\UWP-Assignment\bin\x86\Debug\Pages\Collection.xbf">
       <PackagePath>Pages\Collection.xbf</PackagePath>
-      <Modified>2021-06-10T17:31:26.758</Modified>
+      <Modified>2021-06-11T14:28:19.082</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ki2\UWP-Assignment\bin\x86\Debug\Pages\Customer.xbf">
       <PackagePath>Pages\Customer.xbf</PackagePath>
-      <Modified>2021-06-10T17:31:26.758</Modified>
+      <Modified>2021-06-11T14:28:19.082</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ki2\UWP-Assignment\bin\x86\Debug\Pages\Delivery.xbf">
       <PackagePath>Pages\Delivery.xbf</PackagePath>
-      <Modified>2021-06-10T17:31:26.758</Modified>
+      <Modified>2021-06-11T14:28:19.083</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ki2\UWP-Assignment\bin\x86\Debug\Pages\Driver_Payment.xbf">
       <PackagePath>Pages\Driver_Payment.xbf</PackagePath>
-      <Modified>2021-06-10T17:31:26.758</Modified>
+      <Modified>2021-06-11T14:28:19.083</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ki2\UWP-Assignment\bin\x86\Debug\Pages\Eat_In.xbf">
       <PackagePath>Pages\Eat_In.xbf</PackagePath>
-      <Modified>2021-06-10T17:31:26.758</Modified>
+      <Modified>2021-06-11T14:28:19.083</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ki2\UWP-Assignment\bin\x86\Debug\Pages\Home.xbf">
+      <PackagePath>Pages\Home.xbf</PackagePath>
+      <Modified>2021-06-11T14:28:19.083</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ki2\UWP-Assignment\bin\x86\Debug\Pages\layout.xbf">
       <PackagePath>Pages\layout.xbf</PackagePath>
-      <Modified>2021-06-10T17:31:26.759</Modified>
+      <Modified>2021-06-11T14:28:19.083</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ki2\UWP-Assignment\bin\x86\Debug\Pages\Take_Away.xbf">
       <PackagePath>Pages\Take_Away.xbf</PackagePath>
-      <Modified>2021-06-10T17:31:26.759</Modified>
+      <Modified>2021-06-11T14:28:19.083</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -130,11 +158,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ki2\UWP-Assignment\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-06-10T17:31:27.259</Modified>
+      <Modified>2021-06-11T14:28:19.468</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ki2\UWP-Assignment\bin\x86\Debug\Core\Assignment1.exe">
       <PackagePath>Assignment1.exe</PackagePath>
-      <Modified>2021-06-10T17:31:28.400</Modified>
+      <Modified>2021-06-11T14:28:20.086</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

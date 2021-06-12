@@ -11,31 +11,19 @@
 
     <SplitView x:Name="SplitView_Menu" OpenPaneLength="250" DisplayMode="CompactInline" IsPaneOpen="True" >
         <SplitView.Pane>
-            <StackPanel>
-                <AppBarButton Content="Split view" Click="AppBarButton_Click"
-                        Width="50" Height="50"
-                        VerticalContentAlignment="Center" 
-                        HorizontalContentAlignment="Center" 
-                        Icon="List" 
-                        HorizontalAlignment="Left"
-                        VerticalAlignment="Top">
-                </AppBarButton>
-                <ListView x:Name="listMenu" Margin="10" Loaded="listMenu_Loaded">
-                    <ListView.ItemTemplate>
-                        <DataTemplate x:DataType="models:Menu">
-                            <ListViewItem Tapped="ListViewItem_Tapped">
-                                <RelativePanel>
-                                    <TextBlock RelativePanel.RightOf="food" Text="{x:Bind Name}" FontSize="25"/>
-                                </RelativePanel>
-                            </ListViewItem>
-                        </DataTemplate>
-                    </ListView.ItemTemplate>
-                </ListView>
-            </StackPanel>
+            <ListView x:Name="listMenu" Margin="10" Loaded="listMenu_Loaded">
+                <ListView.ItemTemplate>
+                    <DataTemplate x:DataType="models:Menu">
+                        <ListViewItem Tapped="ListViewItem_Tapped">
+                            <TextBlock Text="{x:Bind Name}"/>
+                        </ListViewItem>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </SplitView.Pane>
         <SplitView.Content>
             <RelativePanel>
-                <StackPanel   Height="17" Width="1500" 
+                <StackPanel Height="17" Width="1500" 
                     Background="DarkRed"/>
                 <TextBlock x:Name="Intro" Foreground="White"  
                     Text="C# UI Design By Group 5" 
@@ -53,7 +41,7 @@
                     HorizontalAlignment="Left" 
                     Margin="70,20,0,0"                   
                     Loaded="BeeHead_Loaded"
-                    Width="200" Height="200"
+                    Width="100" Height="100"
                     />
                 <StackPanel Margin="20" Height="40" Width="400" HorizontalAlignment="Right" RelativePanel.RightOf="Intro">
                     <GridView>

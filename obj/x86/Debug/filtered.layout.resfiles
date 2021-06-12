@@ -1,5 +1,11 @@
 WinMetadata\Windows.winmd
+Assets\cake-2.jpg
+Assets\Hambur.png
+Assets\Hamburger.jpg
+Assets\humberger.jpg
+Assets\jolibee.png
 Assets\LockScreenLogo.scale-200.png
+Assets\pizza.jpg
 Assets\SplashScreen.scale-200.png
 Assets\Square150x150Logo.scale-200.png
 Assets\Square44x44Logo.scale-200.png
@@ -14,6 +20,7 @@ Pages\Customer.xbf
 Pages\Delivery.xbf
 Pages\Driver_Payment.xbf
 Pages\Eat_In.xbf
+Pages\Home.xbf
 Pages\layout.xbf
 Pages\Take_Away.xbf
 Properties\Default.rd.xml

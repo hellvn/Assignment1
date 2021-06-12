@@ -34,8 +34,23 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ki2\UWP-Assignment\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    <AppxPackagedFile Include="D:\Ki2\UWP-Assignment\Assets\cake-2.jpg">
+      <PackagePath>Assets\cake-2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ki2\UWP-Assignment\Assets\Hamburger.jpg">
+      <PackagePath>Assets\Hamburger.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ki2\UWP-Assignment\Assets\humberger.jpg">
+      <PackagePath>Assets\humberger.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ki2\UWP-Assignment\Assets\pizza.jpg">
+      <PackagePath>Assets\pizza.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ki2\UWP-Assignment\Assets\Hambur.png">
+      <PackagePath>Assets\Hambur.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ki2\UWP-Assignment\Assets\jolibee.png">
+      <PackagePath>Assets\jolibee.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ki2\UWP-Assignment\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -64,6 +79,9 @@
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ki2\UWP-Assignment\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ki2\UWP-Assignment\bin\x86\Debug\Assignment1.xr.xml">
       <PackagePath>Assignment1.xr.xml</PackagePath>
     </AppxPackagedFile>
@@ -87,6 +105,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ki2\UWP-Assignment\bin\x86\Debug\Pages\Eat_In.xbf">
       <PackagePath>Pages\Eat_In.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ki2\UWP-Assignment\bin\x86\Debug\Pages\Home.xbf">
+      <PackagePath>Pages\Home.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ki2\UWP-Assignment\bin\x86\Debug\Pages\layout.xbf">
       <PackagePath>Pages\layout.xbf</PackagePath>

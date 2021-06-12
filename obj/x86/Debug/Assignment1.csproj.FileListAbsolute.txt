@@ -128,3 +128,8 @@ D:\Ki2\UWP-Assignment\obj\x86\Debug\qualifiers.txt.intermediate
 D:\Ki2\UWP-Assignment\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 D:\Ki2\UWP-Assignment\obj\x86\Debug\ProjectArchitectures.txt
 D:\Ki2\UWP-Assignment\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885058160000000.json
+D:\Ki2\UWP-Assignment\bin\x86\Debug\Pages\Home.xbf
+D:\Ki2\UWP-Assignment\obj\x86\Debug\Pages\Home.g.i.cs
+D:\Ki2\UWP-Assignment\obj\x86\Debug\Pages\Home.g.cs
+D:\Ki2\UWP-Assignment\obj\x86\Debug\Pages\Home.xaml
+D:\Ki2\UWP-Assignment\obj\x86\Debug\Pages\Home.xbf
